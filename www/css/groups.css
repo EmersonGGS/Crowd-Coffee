@@ -1,0 +1,17 @@
+.add-group-button{
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+}
+
+.add-group-button img{
+    background-color: #336E7B;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+}

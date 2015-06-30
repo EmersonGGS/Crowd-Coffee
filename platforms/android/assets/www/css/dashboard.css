@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(#52B3D9, #22A7F0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#52B3D9, #22A7F0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#52B3D9, #22A7F0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#52B3D9, #22A7F0); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-color: #22A7F0;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+header{
+    background-color: #22313F;
+    color: #336E7B;
+    height: 55px;
+}
+header img{
+    width: 35px;
+    height: auto;
+    float: left;
+    padding: 10px;
+    background-color: #2C3E50;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5px;
+}
+#main-navigation{
+    display: none;
+    position: absolute;
+    top: 55px;
+    width: 80%;
+    height: 100%;
+    background-color: #2C3E50;
+    z-index: 99999;
+}
+li{
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    font-size: 1.3em;
+}

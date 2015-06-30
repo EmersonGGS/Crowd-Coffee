@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <title>Crowd Coffee</title>
+</head>
+<body>
+
+<!--LOADING SCREEN-->
+<div id="loading-screen-cont">
+    <div id="loading-screen">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+        <h3>Hold up a sec...</h3>
+    </div>
+</div>
+
+
+<!--LOGIN FORM-->
+<div id="login-container">
+
+    <h1 id="main-login-header" class="animated fadeInDown">Crowd Coffee</h1>
+
+    <h2 id="secondary-login-header" class="animated fadeInDown">Welcome to the coffee revolution.</h2>
+
+    <form id="loginForm">
+
+        <div class="input-cont">
+            <img class="email-icon" src="img/email.png"/>
+            <input id="email-input" type="email" name="email" placeholder="enter email" required>
+        </div>
+
+
+        <div class="input-cont">
+            <img class="password-icon" src="img/password.png"/>
+            <input id="password-input" type="password" name="password" placeholder="enter password" required>
+        </div>
+        <button onclick="logIn()" type="button" id="login-btn">Login<img class="login-btn-img" src="img/login.png"></button>
+    </form>
+
+</div>
+
+<a href="signup.html"><button id="sign-up-btn">Sign up</button></a>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

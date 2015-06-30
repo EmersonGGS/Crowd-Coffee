@@ -1,0 +1,94 @@
+#friends-list li{
+    position: relative;
+    color:#000;
+    padding:30px;
+    border: none;
+    border-right: 45px solid #95a5a6;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#friends-list img{
+    position: absolute;
+    right: -50px;
+    top: 25px;
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+}
+
+.list-divider{
+    width: 100%;
+    height: 3px;
+    background-color: #d6eeef;
+    display: block;
+}
+
+.create-group-button{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #19B5FE;
+    top: 55px;
+    left: 0px;
+    border: none;
+    color: #fff;
+    z-index: 9999;
+    box-shadow: 0px 1px 10px #666;
+}
+
+.popup-name-group{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #6e7a7b;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    z-index: 99999999999;
+}
+.popup-inner{
+    background-color: #fff;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.popup-inner p{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 5px;
+}
+
+.popup-inner h2{
+    margin: 5px;
+}
+
+.popup-inner input{
+    width: 90%;
+    margin: 5px 5%;
+    height: 45px;
+}
+
+#app-container{
+    margin-top: 95px;
+}
+.create-btn, .cancel-btn{
+    width: 40%;
+    margin:5%;
+    height: 50px;
+    border: none;
+    color: #fff;
+}
+
+.create-btn{
+    background-color: #19B5FE;
+}
+
+.cancel-btn{
+    background-color: #b1b1b1;
+}
